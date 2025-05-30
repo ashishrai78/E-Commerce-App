@@ -37,7 +37,6 @@ class OnboardingScreen extends StatelessWidget {
             right: UDeviceHelper.getScreenWidth(context)*0.08,
             top: UDeviceHelper.getScreenHeight(context)*0.04,
               child: Text('Skip')),
-          Container()
         ],
       ),
     );
