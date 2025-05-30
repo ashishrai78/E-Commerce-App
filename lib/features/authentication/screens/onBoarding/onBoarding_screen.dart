@@ -44,7 +44,7 @@ class OnboardingScreen extends StatelessWidget {
 }
 
 
-// Smooth Page Indicator
+// Smooth Page Indicator-----
 
 class smoothPageIndicator extends StatelessWidget {
   const smoothPageIndicator({
