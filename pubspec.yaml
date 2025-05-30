@@ -1,0 +1,36 @@
+name: ShoppingApp
+description: "A new Flutter project."
+publish_to: 'none'
+
+
+environment:
+  sdk: ^3.6.0
+
+  #----------------[PACKAGES]---------------
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  flutter_native_splash: ^2.4.4
+  lottie: ^3.3.1
+  smooth_page_indicator: ^1.2.1
+  #----------------------------------------
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  #-----------[ASSETS]--------------
+  assets:
+    - assets/logo/
+    - assets/animations/
+
+
+  #------------[FONTS]--------------
+  fonts:
+    - family: 'Nunito'
+      fonts:
