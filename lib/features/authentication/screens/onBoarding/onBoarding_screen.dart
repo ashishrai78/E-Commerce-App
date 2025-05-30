@@ -36,7 +36,8 @@ class OnboardingScreen extends StatelessWidget {
           Positioned(
             right: UDeviceHelper.getScreenWidth(context)*0.08,
             top: UDeviceHelper.getScreenHeight(context)*0.04,
-              child: Text('Skip'))
+              child: Text('Skip')),
+          Container()
         ],
       ),
     );
@@ -44,6 +45,7 @@ class OnboardingScreen extends StatelessWidget {
 }
 
 
+// Smooth Page Indicator
 
 class smoothPageIndicator extends StatelessWidget {
   const smoothPageIndicator({
@@ -65,7 +67,6 @@ class smoothPageIndicator extends StatelessWidget {
         ));
   }
 }
-
 
 
 
